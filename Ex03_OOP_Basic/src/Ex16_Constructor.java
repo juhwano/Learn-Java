@@ -82,6 +82,7 @@ public class Ex16_Constructor {
         Car3 car3 = new Car3(); //default 자동 호출
         System.out.println(car3.carname);
         
+        
         Car3 car4 = new Car3("지네시스"); //overloading constructor
         System.out.println(car4.carname);
         

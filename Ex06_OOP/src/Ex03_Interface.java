@@ -166,10 +166,6 @@ class Test extends Object implements Humanable , Iable{
 
 
 
-
-
-
-
 public class Ex03_Interface {
 
     public static void main(String[] args) {
