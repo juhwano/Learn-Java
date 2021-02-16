@@ -27,7 +27,7 @@ import java.util.Scanner;
 //3. 뒷번호 첫번째 자리값을 가지고 1,3 남자 , 2,4 여자 출력 기능함수  void  출력
 
 //3개의 함수 static 
-public class Ex06_Group_Task_review {
+public class Ex07_Group_Task_review {
 
 	static boolean juminCheck(String str) {
 		return str.length() == 14 ? true : false;

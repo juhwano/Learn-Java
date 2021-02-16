@@ -1,5 +1,6 @@
 package kr.or.bit;
-
+//사원은 사번을 갖고 있고
+//이름을 갖고 있고, 직위를 갖고 있다.
 public class Emp {
     private int empno;
     private String ename;

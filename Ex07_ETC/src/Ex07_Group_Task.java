@@ -15,7 +15,7 @@
 //3개의 함수 static 
 import java.util.Scanner;
 
-public class Ex06_Group_Task {
+public class Ex07_Group_Task {
 	
 	static boolean positionCheck(String str) {
 		if(str.length() == 14) {

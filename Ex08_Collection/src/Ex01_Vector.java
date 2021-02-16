@@ -1,7 +1,6 @@
 import java.util.Vector;
 
 /*
-
 Collection FrameWork
 "다수의 데이터"를 다루는 "표준화된 인터페이스"를 구현하고 있는 "클래스 집합"
 ->자료구조 클래스들
@@ -11,7 +10,6 @@ Collection FrameWork
 
 Collection 인터페이스  ->  List 인터페이스  -> ArrayList(구현 : 수많은 약속을)
                        ->  Set  인터페이스  -> HashSet, TreeSet(구현)
-
  
 Map 인터페이스 (key, value)  -> HashMap(구현)
 
@@ -46,6 +44,14 @@ List > Vector , ArrayList
 1. 배열의 크기를 동적으로 확장축소 -> 말도 안되는 이야기(?) >> **사실은 "배열의 재할당" 이용
 2. 순서를 유지(내부적으로 index 배열) , 중복값 허용
 3. 데이터 저장 공간 :Array
+
+
+set -> 원 안에 들어가세요
+홍길동 들어갓는데 선생님이 막는것
+순서가 없다. -> 구별방법 x
+중복데이터 x
+ex)차량번호, 로또
+
  */
 public class Ex01_Vector {
 
