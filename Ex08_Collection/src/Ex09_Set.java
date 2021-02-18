@@ -79,6 +79,7 @@ public class Ex09_Set {
 			System.out.println("i : " + i + " num : " + num);
 		}
 		System.out.println(lotto.toString());
+		System.out.println("ㅡㅡㅡㅡㅡㅡ");
 		System.out.println(lotto.size());
 
 		System.out.println("ㅡㅡㅡㅡㅡㅡ");
@@ -87,6 +88,7 @@ public class Ex09_Set {
 			int num = (int)(Math.random()*45 + 1);
 			set2.add(num);
 		}
+		
 		System.out.println("lotto : " + set2);
 //		순서 보장 (x) 작은 값부터 나열 (x)
 		System.out.println("ㅡㅡㅡㅡㅡㅡ");
@@ -96,7 +98,7 @@ public class Ex09_Set {
 		set3.add("ABC");
 		set3.add("FFF");
 		System.out.println(set3.toString());
-		
+		System.out.println("ㅡㅡㅡㅡㅡㅡ");
 //		iterator로 출력
 		Iterator<String> st = set3.iterator();
 		while(st.hasNext()) {

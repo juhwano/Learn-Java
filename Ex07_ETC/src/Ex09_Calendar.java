@@ -1,11 +1,9 @@
 
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
 import kr.or.bit.utils.Edu_Date;
-
 
 /*
 * Calendar 를 상속받아 완전히 구현한 클래스는 
