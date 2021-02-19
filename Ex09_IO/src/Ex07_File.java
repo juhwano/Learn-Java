@@ -48,7 +48,6 @@ public class Ex07_File {
 //		f.createNewFile()   파일생성
 //		f.delete()  삭제
 //		f.canRead();  //누가 작업하고 있으면 못 읽으니 읽어도 될까?? 묻는 것
-		
 	}
 
 }
