@@ -35,8 +35,6 @@ stack : 한번에 1개의 함수만 실행 가능 (10개 함수가 있더라도 
 
 교착 상태 -> 멱살잡이, 작업관리자 강제종료(kill)
 
-
-
 */
 public class Ex01_Single_Thread {
 

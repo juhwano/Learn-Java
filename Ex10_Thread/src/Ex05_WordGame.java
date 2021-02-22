@@ -1,17 +1,14 @@
 import javax.swing.JOptionPane;
 
-/*
-단어를 하나라도 입력해서 확인 버튼을 누르면 그 때 시간을 멈추게 하고 싶다.
+//단어를 하나라도 입력해서 확인 버튼을 누르면 시간을 멈추게 하고 싶어요
 //hint) 공유자원
-
-*/
 
 class WordInputProcess extends Thread{
 	@Override
 	public void run() {
 		String dan="2";
 		String inputdata = JOptionPane.showInputDialog(dan + "단 값을 입력");
-		if(inputdata != null && !inputdata.equals("")) {  //뭔가 하나라도 입력을 한다면?
+		if(inputdata != null && !inputdata.equals("")) { //뭔가 하나라도 입력을 하면
 			Ex05_WordGame.inputcheck=true; //값을 변경
 			//System.out.println(Ex05_WordGame.inputcheck);
 		}
@@ -45,6 +42,17 @@ public class Ex05_WordGame {
 		
 		word.start();
 		time.start();
+		
+		try {
+			  //join : 다르 스레드의 종료를 기다림(휴게실)
+			  //       join 요청한 스레드가 종료되면 그때 동작 ...
+			   word.join(); //main 에게 word 끝날때까지 기다려 줄래
+			   time.join(); //main 에게 time 끝날때까지 기다려 줄래
+			   
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
 		
 		System.out.println("Main END");
 
