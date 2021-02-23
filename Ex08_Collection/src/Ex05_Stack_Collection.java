@@ -19,7 +19,7 @@ public class Ex05_Stack_Collection {
         System.out.println("ㅡㅡㅡㅡㅡ");
         
         //Queue queue = new LinkedList();
-        
+        System.out.println("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
         MyStack my = new MyStack(5);
         System.out.println(my.isEmpty1());
         System.out.println(my.isFull1());

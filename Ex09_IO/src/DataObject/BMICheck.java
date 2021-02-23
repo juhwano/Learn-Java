@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Set;
 import java.io.*;
-import DataObject.BMI;
 
 public class BMICheck {
 	//*******************************************************

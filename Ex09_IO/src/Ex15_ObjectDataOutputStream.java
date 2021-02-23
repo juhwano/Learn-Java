@@ -4,6 +4,16 @@ import java.io.ObjectOutputStream;
 
 import kr.or.bit.UserInfo;
 
+//java.io.FileOutputStream 으로 .txt 파일을 열어줌
+//java.io.ObjectOutputStream으로 해당 파일에 직렬화 수행 (데이터 출력)
+
+//외부의 파일을 하나 생성해서 Output Stream을 열고 해당 클래스를 통해 직렬화를 수행해 객체의 정보를 모두 파일로 출력해줍니다. 
+//직렬화와 역직렬화의 사용법 자체는 아주 간단합니다. 생성된 파일을 열어보면 알 수 없는 요상한 내용이 써져있습니다. 
+
+//생성자 : new ObjectOutputStream (FileOutputStream 인스턴스)
+//직렬화 수행 : writeObject(직렬화할 인스턴스)
+
+
 public class Ex15_ObjectDataOutputStream {
 
 	public static void main(String[] args) {

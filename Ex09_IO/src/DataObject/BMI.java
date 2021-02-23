@@ -3,7 +3,6 @@ package DataObject;
 import java.io.Serializable;
 import java.util.Scanner;
 
-
 public class BMI implements Serializable{
 	private double length = 0;
 	private double weight = 0;

@@ -4,8 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-//https://cafe.naver.com/springbit/315
-
 
 public class Ex10_Format_Date {
 	public static void main(String[] args) {
@@ -71,11 +69,11 @@ public class Ex10_Format_Date {
         
 
         //혼용
-
+        System.out.println("ㅡㅡㅡㅡ");
         Calendar c = Calendar.getInstance();
         Date d = c.getTime(); //Calendar 형식을 Date 형식
         System.out.println(s3.format(d));
-		
+		System.out.println("ㅡㅡㅡㅡ");
 	}
 
 }
