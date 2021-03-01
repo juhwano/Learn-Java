@@ -27,7 +27,7 @@ package day0118;
 /* 1.낙타등 표기법( Camel back notation)
  * 낙타등 표기법이란 어떠한 것에 이름을 지어줄 때
  * 여러 단어로 이루어져 있을 경우,
- * 두번쨰 단어부터는 첫글자를 대문자로 적어줘서
+ * 두번째 단어부터는 첫글자를 대문자로 적어줘서
  * 몇개의 단어로 이루어져있는지 쉽게 알려주는 표기법이다.
  * 예시 : userNumber, memberController, UserMemberAuthController
  * 낙타등처럼 꼬불랑꼬불랑 올라갓다가 내려갔다가

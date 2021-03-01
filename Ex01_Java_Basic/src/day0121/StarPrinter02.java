@@ -25,7 +25,6 @@ public class StarPrinter02 {
 			//해당 줄의 출력 내용(별)을 저장할 String 변수
 			String stars = new String();
 			
-			
 			// i가 1일때
 			// j는 1로 초기화하고 5보다 작거나 같을동안 5번반복
 			

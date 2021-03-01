@@ -61,6 +61,8 @@ public class Ex10Validation {
         
         scanner.close(); 
            
+    }else {
+    	System.out.println("잘못된 입력입니다.");
     }
 
 }

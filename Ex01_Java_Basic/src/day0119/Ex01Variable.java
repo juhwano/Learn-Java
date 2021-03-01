@@ -34,17 +34,18 @@ package day0119;
 public class Ex01Variable {
 	public static void main(String[] args) {
 		// int 변수 number를 선언해보자
-		int number;
 		// number에 아무 값이 안 들어가잇다. 스레기값이 들어잇다.
+		int number;
+		
 		number = 20;
-		
 		System.out.println("number의 현재값 : "+number);
+		
 	    number = 45;
-		
 		System.out.println("number의 현재값 : "+number);
-		//만약 우리가 지정한 변수의 데이터타입과 다른 값을 넣어주면 에러 발생
 		
+		//만약 우리가 지정한 변수의 데이터타입과 다른 값을 넣어주면 에러 발생
 		number = 'A';
+
 		System.out.println("number의 현재값 : "+number);
 		
 		//실수형 변수를 만들어보자

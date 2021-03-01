@@ -3,10 +3,10 @@ package day0119;
  * 논리연산자는 boolena 값에 대한 연산을 한다.
  * 
  * 1. AND 연산자 ( && )  <- 쉬프트 77 
- *    2개의 boolean 값이 모두 true일 때에만 결과가 true가 나온다.
+ *    2개의 boolean 값이 "모두" true일 때에만 결과가 true가 나온다.
  *    
  * 2. OR 연산자 ( || )
- *    2개의 boolean 값 중 하나라도 true 이면 결과가 true가 나온다.
+ *    2개의 boolean 값 중 "하나"라도 true 이면 결과가 true가 나온다.
  *    
  * 3. NOT 연산자 ( ! )
  *    true는 false로 false는 true로 변환해준다.

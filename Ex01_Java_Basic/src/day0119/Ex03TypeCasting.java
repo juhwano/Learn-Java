@@ -10,7 +10,7 @@ package day0119;
  * 
  * 명시적 형변환(explicit type casting)
  * 명시적 형변환은 더 큰 데이터타입의 값을 더 작은 데이터타입으로 바꿀 때 발생된다.
- * 데이터 손실이 발생하더라도 값의 데이터타입을 바꿀 때 명시해주어야 ㅎ나다.
+ * 데이터 손실이 발생하더라도 값의 데이터타입을 바꿀 때 명시해주어야 한다.
  * 명시적 형변환은
  * 공간 = (바꿀 타입)값;
  * 으로 해줄 수 있다.
@@ -22,10 +22,11 @@ public class Ex03TypeCasting {
 		 *  더 작은 데이터타입의 값을 더 큰 데이터타입에 옮겨 닮거나
 		 *  정수 값을 실수로 바꿀 때 발생
 		 */
+//		byte -> int 
 		byte b = 3;
 		int number = b;
 		System.out.println("number의 현재값: "+number);
-		//byte를 int 형태로
+		
 		
 		double d = number;
 		System.out.println("d의 현재값: "+d);
