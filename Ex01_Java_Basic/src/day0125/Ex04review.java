@@ -25,7 +25,7 @@ public class Ex04review {
 				System.out.print("숫자를 입력하세요: ");
 				int userNumber = scanner.nextInt();
 				
-				//random을 사용하여 1~100 사이의 난수 생성(0~100인데 +1해줌)
+				//random을 사용하여 1~100 사이의 난수 생성(0~99인데 +1해줌)
 				int computerNumber = random.nextInt(MAX) + 1;
 				
 				//숫자가 다르면 계속 입력을 받아야함 > 몇번 입력을 받아야할지 횟수제한x > while

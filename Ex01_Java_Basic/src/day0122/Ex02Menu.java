@@ -8,7 +8,7 @@ public class Ex02Menu {
     static final int OPTION_PRINT = 2;
 //     종료 옵션값
     static final int OPTION_END = 3;
-    public static void manin(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        변수선언은 while문 바깥에 해야 저장됨
 
