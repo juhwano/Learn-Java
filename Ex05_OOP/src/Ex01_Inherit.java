@@ -29,11 +29,11 @@ Child child = new Child()
 
 
 
-*/
 
-//연습용이니까 위에 만듬
-//상속관계 중 Base(최상위) 클래스가 Object 상속받고있음
-//extends Object 컴파일러가 알아서 처리
+연습용 Class라서 위에 만듬
+상속관계 중 Base(최상위) 클래스가 Object 상속받고있음
+extends Object가 안 보이는 이유? 컴파일러가 알아서 처리
+*/
 class GrandFather {
 	public GrandFather() {
 		System.out.println("GrandFather");
